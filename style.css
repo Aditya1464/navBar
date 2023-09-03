@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.915);
+}
+.box1{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.box1 .logo{
+    width: 10vw;
+    height: 100%;
+}
+.box1 .logo img{
+    width: 100px;
+    height: 100%;
+}
+.box1 .searchBox{
+    width: 50vw;
+    height: 55%;
+    border-radius: 30px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: end;
+    padding: 10px 20px 3px 20px;
+    position: relative;
+}
+.box1 .searchBox #icon{
+    width: 25px;
+    height: 100%;
+    z-index: 1;
+}
+.searchBox input[type=text]{
+    height: 80%;
+    width: 80%;
+    border-radius: 30px;
+    background-color: rgb(49, 48, 48);
+    /* color: white; */
+    position: absolute;
+    left: 10px;
+    border: none;
+}
+.icon1 img{
+    width: 20px;
+    height: 70%;
+}
+.icon2 img{
+    width: 25px;
+    height: 70%;
+}
+.icon3 img{
+    width: 30px;
+    height: 70%;
+}
+.settingIcon{
+    position: absolute;
+    right: 15vw;
+}
+.settingIcon img{
+    width: 20px;
+    height: 70%;
+}
+.button1{
+    width: 60px;
+    position: absolute;
+    right: 5vw;
+}
+.button1 input[type=button]{
+    background-color: rgb(6, 105, 211);
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+}
+.box2{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    padding-left: 170px;
+    /* padding-right: 40px; */
+}
+.box2 .button2{
+    display: flex;
+    gap: 20px;
+}
+.box2 .button2 input[type=button]{
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.72);
+    color: white;
+    border: 0.1px solid rgba(255, 255, 255, 0.477);
+}
+#butt1:hover{
+    background-color: rgb(49, 48, 48);
+}
+.nav{
+    width: 40vw;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding: 0px 20px 0 20px;
+}
+.box2 #filters{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.696);
+    color: beige;
+    padding: 10px;
+    border: 0.1 solid rgba(255, 255, 255, 0.586);
+}
+#filters:hover{
+    background-color: rgb(49, 48, 48);
+}
+.tools input[type=button]{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.696);
+    color: beige;
+    padding: 10px;
+    border: 0.1 solid rgba(255, 255, 255, 0.586);
+}
+.tools input[type=button]:hover{
+    background-color: rgb(49, 48, 48);
+}
+.box2 #safe{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.696);
+    color: beige;
+    padding: 10px;
+    border: 0.1 solid rgba(255, 255, 255, 0.586);
+}
+#safe:hover{
+    background-color: rgb(49, 48, 48);
+}
