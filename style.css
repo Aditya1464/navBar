@@ -48,7 +48,6 @@
     width: 80%;
     border-radius: 30px;
     background-color: rgb(49, 48, 48);
-    /* color: white; */
     position: absolute;
     left: 10px;
     border: none;
@@ -93,7 +92,6 @@
     align-items: center;
     position: relative;
     padding-left: 170px;
-    /* padding-right: 40px; */
 }
 .box2 .button2{
     display: flex;
